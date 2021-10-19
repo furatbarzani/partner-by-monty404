@@ -10,7 +10,7 @@ if (message.content === 'wara') {
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
-message.member.voiceChannel.join() 
+message.member.voiceChannel.join(`750820923158036500´) 
 
 .then(connection => { 
 
@@ -21,7 +21,7 @@ message.member.voiceChannel.join()
 
 } else { 
 
-message.reply('** پێویستە تۆ لە ڤۆیسەکە بیت **'); 
+message.reply('** 750820923158036500 **'); 
 
 } 
 
@@ -36,9 +36,9 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` دانرا تۆش ڕیکلامەکە بکە lera Link Dane`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/aSeCbGVZrT`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("id Channel ").send(
+  client.channels.get("750820920826003549").send(
 `> By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
@@ -51,10 +51,10 @@ ${message.content}`)
 client.on('ready', () => {
 console.log(`ON ${client.guilds.size} Servers`);
 console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Monty404 is here`) 
+client.user.setGame(`Marshal on fire |MRL々CLEVER UP`) 
 });
 
 
 
 
-client.login("");// Token Lera Dane
+client.login("ODk5OTc3NjA4NzMxNzAxMjc5.YW6ndg.1eKUqBRgYVIDAuj9U0wFV_p2pE4");// Token Lera Dane
